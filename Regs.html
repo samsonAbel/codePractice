@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+
+    <script src="regs.js"></script>
+</head>
+<body>
+    <h1>Regs Practice</h1>
+    <p class="sample">My first child is Eva</p>
+    <p class="sample">My second child is Abel</p>
+    <p class="sample"></p>
+    <p class="sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+        reprehenderit in voluptate Abelo esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        officia deserunt mollit anim id est laborum.</p>
+        <p class="sample"></p>  
+    
+    <button onclick="getFisrtChild()">Get First Child</button>
+    <button onclick="getSecondChild()">Get Second Child</button><br>
+    <button onclick="searchFirstChild()">Search First Child Text</button>
+    <button onclick="searchSecondChild()">Search Second Child Text</button>
+    <button onclick="searchAbelo()">Search Abelo</button>
+
+     <!-- <script>
+        function getFisrtChild(){
+            var firstChild = document.getElementsByClassName('sample')[0].innerHTML;
+            var correctChild = firstChild.replace("Eva","Abel");
+            document.getElementsByClassName("sample")[0].innerHTML = correctChild;
+        }
+
+        function getSecondChild(){
+            var secondChld = document.getElementsByClassName("sample")[1].innerHTML;
+            var correctChild = secondChld.replace("Abel","Eva");
+            document.getElementsByClassName("sample")[1].innerHTML = correctChild;
+
+        }
+    </script>  -->
+    
+ </body>
+</html> 
